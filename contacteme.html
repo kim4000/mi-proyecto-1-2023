@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,37 +28,28 @@
    </div>
 <!-- aqui colocamos el cuerpo del index-->
 <div id="cuerpoContenido">
-<div id="cuerpoImagen">
-    <div id="borderImagen">
-        <img src="/img/Recurso 1.png" height="400" width="480">
-    </div>
-</div>
-<div id="cuerpoDetalle">
-    <h1>Bienvenido</h1>
-    <div id="datosDetalle">
-        <p> A todos los presentes, les doy la más cordial bienvenida.
-            A todos, mis mejores deseos de éxito.
-            Apreciamos su presencia en este momento tan difícil.
-            Compartimos con ustedes esta noche de celebración.
-            Con gran placer me encuentro aquí, ante ustedes, en esta.
-            Deseo expresar mi más sincero agradecimiento por su presencia.
-            Deseo manifestar mi eterno agradecimiento.
-            En nombre de la institución, reciban la más cordial bienvenida.
-            Es para mí un honor presentar.
-            Es para mí un placer darles la bienvenida.</p>
-    </div>
-    <div id="botones">
-        <div id="botonFavorita">
-            <div id="marcoFavorito" class="disenoBoton">
-                Mi Persona Favorita
-            </div>
-        </div>
-        <div id="botonUbicacion">
-        <div id="marcoUbicacion" class="disenoBoton">
-        Mi Ubicacion
-        </div>
-        </div>
-    </div>
+<div id="formularioDatos">
+    <fieldset>
+        <legend>Mis Datos</legend>
+        <form>
+            <label>Nombre </label>
+            <input type="text" placeholder="ingrese su nombre">
+            <label>Apellido</label>
+            <input type="text" placeholder="ingrese su apellido">
+            <label>Edad</label>
+            <input type="number" placeholder="ingrese su edad">
+            <select>
+                <option value="cbba">Cochabamba</option>
+                <option value="lp">La paz</option>
+                <option value="tj">Tarija</option>
+                <option value="stc">Santa cruz</option>
+                <option value="or">Oruro</option>
+            </select>
+            <label>descripcion</label>
+            <textarea></textarea>
+            <input type="button" value="insertar">
+        </form>
+    </fieldset>
 </div>
 </div>
 <!-- aqui colocamos el pie de la wed-->
